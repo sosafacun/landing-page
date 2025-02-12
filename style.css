@@ -22,6 +22,7 @@ a{
     display: flex;
     justify-content: space-between;
     padding: 2%;
+    margin: 0 -120px;
 }
 .logo{
     font-size: 28px;
@@ -75,6 +76,7 @@ a{
 .main-photo-container{
     display: flex;
     align-items: center;
+    margin: 16px 0;
 }
 .main-photo{
     min-width: 400px;
