@@ -1,0 +1,138 @@
+html{
+    background-color: #0E051D;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.body{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 0 120px;
+    margin: 0;
+    height: 100vh;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+}
+.logo{
+    font-size: 28px;
+    font-weight: bold;
+}
+.right-links{
+    display: flex;
+    gap: 24px
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    margin-top: 32px;
+}
+.first-slide{
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 82px;
+}
+.main-title{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    max-width: 400px;
+}
+.h1{
+    font-size: 42px;
+    font-weight: bold;
+}
+.title-subtext{
+    color: rgb(119, 119, 119);
+    font-size: 14px;
+}
+.main-photo-container{
+    display: flex;
+    align-items: center;
+}
+.main-photo{
+    min-width: 400px;
+    min-height: 250px;
+    background-color: #5DD9C1;
+    color: black;
+    text-align: center;
+}
+.sign-up-button{
+    background-color: #ACFCD9;
+    color: black;
+    border: none;
+    padding: 10px 32px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.second-slide{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #ACFCD9;
+    color: black;
+    padding: 16px 64px;
+    margin: 0 -120px;
+    justify-content: space-around;
+}
+.h2{
+    font-size: 32px;
+    font-weight: bold;
+}
+.illustration-showcase{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.illustration-container{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    align-items: center;
+    justify-content: center;
+}
+.illustration{
+    background-color: #0E051D;
+    border-radius: 16px;
+    min-width: 150px;
+    min-height: 150px;
+    max-width: 150px;
+    max-height: 150px;
+    color: white;
+}
+.illustration-description{
+    max-width: 150px;
+    text-wrap: stable;
+    font-size: 14px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 0 -120px;
+    margin-top: auto;
+    height: 72px;
+    background-color:#0E051D;
+}
+.colors{
+    color: #0E051D;
+    color: #665687;
+    color: #B084CC;
+    color: #ACFCD9;
+    color: #5DD9C1;
+}
