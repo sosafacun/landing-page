@@ -36,6 +36,8 @@ a{
     flex-direction: column;
     margin-top: 32px;
 }
+
+
 .first-slide{
     display: flex;
     flex: 1;
@@ -78,13 +80,14 @@ a{
     font-weight: bold;
 }
 
+
 .second-slide{
     display: flex;
     flex-direction: column;
     text-align: center;
     background-color: #ACFCD9;
     color: black;
-    padding: 16px 64px;
+    padding: 128px;
     margin: 0 -120px;
     justify-content: space-around;
 }
@@ -119,6 +122,63 @@ a{
     font-size: 14px;
 }
 
+.third-slide{
+    background-color: #5DD9C1;
+    color: black;
+    margin: 0 -120px;
+    padding: 128px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.quote{
+    font-size: 32px;
+    font-style: italic;
+    padding: 32px 256px 0 256px;
+}
+.credit-quote{
+    font-weight: bold;
+    font-size: 28px;
+    align-self: flex-end;
+    padding: 0 256px 64px 0;
+}
+
+.fourth-slide{
+    background-color: #ACFCD9;
+    margin: 0 -120px;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    padding: 128px;
+}
+.banner{
+    background-color: #665687;
+    display: flex;
+    padding: 64px 128px;
+    border-radius: 15px;
+    justify-content: space-between;
+    align-items: center;
+    width: 1500px;
+}
+.call-to-acttion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.cta-title{
+    font-weight: bold;
+    font-size: 32px;
+}
+.cta-description{
+    
+    color:rgb(172, 172, 172);
+}
+.dark-border{
+    border: #0E051D;
+    border-style: solid;
+    border-width: 4px;
+}
 .footer{
     display: flex;
     justify-content: center;
@@ -126,7 +186,7 @@ a{
     color: white;
     margin: 0 -120px;
     margin-top: auto;
-    height: 72px;
+    padding: 32px;
     background-color:#0E051D;
 }
 .colors{
