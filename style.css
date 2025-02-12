@@ -37,8 +37,9 @@ a{
 .third-slide,
 .fourth-slide{
     padding-bottom: 82px;
+    max-height: 700px;
 }
-.h1, .h2, .quote, .credit-quote, .sign-up-button, .cta-title
+.h1, .h2, .credit-quote, .sign-up-button, .cta-title
 {
     font-weight: bold;
 }
@@ -136,7 +137,7 @@ a{
     background-color: #5DD9C1;
     color: black;
     margin: 0 -120px;
-    padding: 128px;
+    padding: 5%;
     display: flex;
     flex-direction: column;
     flex: 1;
